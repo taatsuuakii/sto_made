@@ -1,0 +1,8 @@
+.carousel{
+    width:60vw;  /*サイズ指定*/
+    margin: auto;
+    margin-top: 30px;
+ }
+ .carousel img{
+    width:100%;
+ }
