@@ -3,38 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HANABI</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon_io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/android-chrome-192x192.png">　
 </head>
 <body>
+  <header>
+    <div class="head">
+      <img id="head" src="assets/img/華火.png" alt="rogo">
+      <h1>HANABI</h1>
+    </div>
     <!-- ナビ -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            玉屋</a>
+          <!-- <a class="navbar-brand" href="#carouselExampleIndicators">
+            ホーム</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#head">ホーム</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Souvenir">Souvenir</a>
+                <a class="nav-link active" href="#">イベント団体用</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">local</a>
+                <a class="nav-link active" href="#">パーティー用</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">map</a>
+                <a class="nav-link active" href="#">法人景品用</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">鳥獣威嚇用</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">花火豆知識</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">お問い合わせ</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+    </header>
       <!--スライドショー  -->
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
@@ -62,15 +79,59 @@
           <span class="visually-hidden">Next</span>
         </a>
       </div>
-      <div class="souvenir">
-          <h2>お土産</h2>
-      </div>
-      
+      <div class="main">
+        <div class="type">
+          <div class="title">
+            <h2>花火とは</h2>
+            <p>花火とは、火薬類を燃焼・爆発させ、光(色)、音、そして煙を発生させるもので、
+              現在では一般的な鑑賞に用いられるほか、合図や信号としても使われます。
+              花火大会などで使用される花火の種類は、大別すると「打ち上げ花火」と「仕掛け花火」の2種類ですが、
+              さらに光・色彩・形・音を主とする夜花火と、煙・音を主とする昼花火とに分けることができます。        
+              また、一般家庭で使用される花火は「おもちゃ花火」と呼ばれ、花火の大きな分野となっています。</p>
+          </div>
+          <div>
+            <img src="assets/img/img11.jpg" alt="">
+          </div>
+        </div>
+        <div class="type">
+          <div>
+            <img src="assets/img/img12.jpeg" alt="">
+          </div>
+          <div class="title">
+            <h2>おもちゃ花火</h2>
+            <p>おもちゃ花火の種類にはどのようなものがあるでしょうか？
+              打ち上げ花火、噴出花火(ドラゴン)や手持ちの花火、ロケット花火、
+              線香花火、爆竹あたりはメジャーですね。その他にもたくさんの種類がありますので、
+              ぜひご参照してみてください。ウンチク王の第一歩です。</p>
+          </div>
+        </div>
+        <div class="type">
+          <div class="title">
+            <h2>おもちゃ花火の種類</h2>
+            <ul>
+              <li>手持ち花火</li>
+              <li>線香花火(手持ち花火)</li>
+              <li>打ち上げ花火</li>
+              <li>噴出花火</li>
+              <li>ロケット花火</li>
+              <li>昼用花火</li>
+            </ul>
+          </div>
+          <div>
+            <img src="assets/img/img13.jpeg" alt="">
+          </div>
+        </div>
+      </div> 
 
-  
-  
-     
-             
+      <footer>
+        <div class="copyright">
+          <p>© 2018 - Organisation</p>
+        </div>
+        <div class="sns">
+          <a href="#" class="contact">Top</a>
+        </div>
+        </footer>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </body>
